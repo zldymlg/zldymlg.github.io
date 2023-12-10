@@ -1,0 +1,109 @@
+body {
+    margin: 0%;
+    padding-top: 100px;
+}
+.NavigationBar {
+    background: white;
+    position: fixed;
+    top: 0%;
+    width: 100%;
+    height: 100px;
+    z-index: 9999;
+    
+}
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    gap: 60px;
+    position: fixed;
+    top: 20px;
+    right: 60px;
+}
+ul li a:hover {
+    color: #343755;
+}
+
+svg {
+    width: 23px;
+    height: 24.242px;
+}
+svg:hover {
+    transform: scale(2.1);
+}
+#Logo {
+    width: 180px;
+    height: 50px;
+    position: fixed;
+    top: 20px;
+    left: 30px;
+}
+#Logo:hover {
+    transform: scale(1.1);
+    
+}
+#Header1 {
+    width: 100%;
+    background: lightgray 50% / cover no-repeat;
+}
+#Title {
+    color: #ffffff;
+    font-family: Impact;
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 412px;
+    position: relative;
+    bottom: 790px;
+    left: 90px;
+}
+#Subtitle{
+    width: 350px;
+    color: #ffffff;
+    font-family: 'Roboto';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 34px;
+    position: relative;
+    bottom: 860px;
+    left: 90px;
+}
+#GetStarted {
+    color: #ffffff;
+    font-family: Impact;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 19px; 
+    display: flex;
+    width: 200px;
+    height: 50px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-shrink: 0;
+    border-radius: 50px;
+    background: #404258;
+    position: relative;
+    bottom: 850px;
+    left: 90px;
+}
+
+a {
+    text-decoration: none;
+}
+#GetStarted:hover {
+    background-color: #303040;
+    color: #ffffff;
+    transform: scale(1.1); 
+}
+#Header2 {
+    width: 100%;
+    background: lightgray 50% / cover no-repeat;
+    position: relative;
+    bottom: 780px;
+}
